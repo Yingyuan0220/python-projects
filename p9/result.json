@@ -1,0 +1,78 @@
+{
+  "per_test": {
+    "1": {
+      "name": "TEST 1",
+      "command": "python main.py get_list_of_files sample_data",
+      "weight": 10.0,
+      "result": "PASS"
+    },
+    "2": {
+      "name": "TEST 2",
+      "command": "python main.py read_json_file sample_data/1.json",
+      "weight": 10.0,
+      "result": "PASS"
+    },
+    "3": {
+      "name": "TEST 3",
+      "command": "python main.py read_csv_file sample_data/1.csv",
+      "weight": 5.0,
+      "result": "PASS"
+    },
+    "4": {
+      "name": "TEST 4",
+      "command": "python main.py read_all sample_data",
+      "weight": 15.0,
+      "result": "PASS"
+    },
+    "5": {
+      "name": "TEST 5",
+      "command": "python main.py read_and_clean_all sample_data",
+      "weight": 10.0,
+      "result": "PASS"
+    },
+    "6": {
+      "name": "TEST 6",
+      "command": "python main.py write_json sample_data out_sample.json",
+      "weight": 20.0,
+      "result": "PASS"
+    },
+    "7": {
+      "name": "TEST 7",
+      "command": "python main.py get_list_of_files full_data",
+      "weight": 5.0,
+      "result": "PASS"
+    },
+    "8": {
+      "name": "TEST 8",
+      "command": "python main.py read_json_file full_data/1.json",
+      "weight": 5.0,
+      "result": "PASS"
+    },
+    "9": {
+      "name": "TEST 9",
+      "command": "python main.py read_csv_file full_data/2.csv",
+      "weight": 5.0,
+      "result": "PASS"
+    },
+    "10": {
+      "name": "TEST 10",
+      "command": "python main.py read_all full_data",
+      "weight": 5.0,
+      "result": "PASS"
+    },
+    "11": {
+      "name": "TEST 11",
+      "command": "python main.py read_and_clean_all full_data",
+      "weight": 5.0,
+      "result": "PASS"
+    },
+    "12": {
+      "name": "TEST 12",
+      "command": "python main.py write_json full_data out_full.json",
+      "weight": 5.0,
+      "result": "PASS"
+    }
+  },
+  "score": 100.0,
+  "total": 100
+}
